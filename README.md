@@ -51,3 +51,61 @@ This application demonstrates **Singleton, Factory, and Observer** patterns whil
 
 ### 🖥️ Sample Usage
 
+##Building Computer step by step:
+
+- Adding CPU
+- Adding RAM
+- Adding Storage
+Computer built: CPU=Intel i7, RAM=16GB, Storage=512GB
+
+
+PrototypeDemo → cloning objects
+
+AdapterDemo → playing MP3/MP4 with AudioPlayer
+
+DecoratorDemo → adding formatting to text
+
+StrategyDemo → shopping cart payment methods
+
+CommandDemo → turning light on/off using commands
+
+##Example Run:
+
+##Add Task
+
+Choose an option: 1
+Description: Morning Exercise
+Start time (HH:mm): 07:00
+End time (HH:mm): 08:00
+Priority (High/Medium/Low): High
+Task added successfully. No conflicts.
+
+
+##View Tasks
+
+Choose an option: 3
+07:00 - 08:00: Morning Exercise [High]
+
+
+##Add overlapping task
+
+Choose an option: 1
+Description: Team Meeting
+Start time (HH:mm): 07:30
+End time (HH:mm): 08:30
+Priority (High/Medium/Low): Medium
+Error: Task conflicts with existing task "Morning Exercise"
+
+
+##Remove Task
+
+Choose an option: 2
+Task Description to remove: Morning Exercise
+Task removed successfully.
+
+
+##View Tasks when empty
+
+Choose an option: 3
+No tasks scheduled for the day.
+
